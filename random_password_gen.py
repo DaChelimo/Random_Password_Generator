@@ -1,7 +1,9 @@
 import string
 import random
 
-num = int(input("How long would you like your password to be: "))
+num = str(input("How long would you like your password to be (e.g 14) : "))
+num = num.strip()
+num = int(num)
 password = ""
 
 
